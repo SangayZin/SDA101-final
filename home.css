@@ -1,0 +1,368 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'poppins', sans-serif; 
+} 
+ 
+nav { 
+    display: flex; 
+    width: 84%; 
+    margin: auto; 
+    padding: 20px 25% 0; 
+    align-items: center; 
+    justify-content: space-between; 
+     
+} 
+ 
+nav ul li { 
+    display: inline-block; 
+    list-style: none; 
+    margin: 20px 20px; 
+} 
+ 
+nav ul li a{ 
+    text-decoration: none; 
+    color: white; /* Set text color to white */ 
+    font-weight: normal; 
+} 
+ 
+nav ul li a:hover { 
+    color: red;
+    font-weight: normal;
+}
+.images
+{
+background-color:rgba(255, 255, 255, 0.5);
+height:350px;
+width:750px;
+padding:0px;
+left:500px;
+top:125px;
+position:relative;
+}
+.images img
+{
+height:350px;
+width:750px;
+}
+
+.container .text{ 
+    width: fit-content;
+    position: relative; 
+    color: white; 
+    font-size: 50px; 
+    font-weight: 600; 
+    margin-left: 660px;
+    margin-top: 150px;
+} 
+
+.text.first-text:before{ 
+    content: ""; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    height: 100%; 
+    width: 100%; 
+    background-color:  #150B33; 
+    animation: animate 4s steps(12) infinite; 
+}  
+@keyframes animate{ 
+    40%, 60%{ 
+        left: 100%; 
+    } 
+    100%{ 
+        left: 0%; 
+    } 
+}
+.Home-content h1{
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-left: 750px;
+    margin-top: 250px;
+}
+.Home-content h2{
+    font-weight: bold;
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+.quote-content p{
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+    margin-left: 100px;
+    margin-bottom: 20PX;
+}
+.ellipse{
+    position: absolute;
+    right: 0;
+    top: 550px;
+    height: ;
+}
+
+.images2{
+    position: absolute;
+    right: 0;
+    margin-top: -450px;
+    left:450;
+
+}
+.images3{
+    position: absolute;
+    left: 0;
+    margin-top: -1075px;
+}
+.images4{
+    position: center;
+    margin-left: 500px;
+    margin-top: 450px; 
+}
+.aboutme-content h3{
+    font-weight: normal;
+    color: white;
+    font-size: 22px;
+    margin-left: 850px;
+    margin-top: -500px;
+}
+.aboutme-content h3:hover {
+    color:white;
+    font-weight: bold;
+}
+.images5{
+    position: center;
+    margin-left: 250px;
+    margin-top: 525px; 
+} 
+.education-content h4{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 825px;
+    margin-top: -1200px;
+}
+.images6{
+    position: center;
+    margin-left: 450px;
+    margin-top: 50px; 
+}
+.YHSS:hover{
+    width: 70%;
+    height: 70%;
+}
+.images7{
+    position: center;
+    margin-left: 450px;
+    margin-top: 25px; 
+}
+.CZMSS:hover{
+    width: 70%;
+    height: 70%;
+}
+.images8{
+    position: center;
+    margin-left: 450px;
+    margin-top: 25px; 
+}
+.KPPS:hover{
+    width: 70%;
+    height: 70%;
+}
+.images9{
+    position: center;
+    margin-left: 250px;
+    margin-top: 150px; 
+}
+.projects-content h5{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 800px;
+    margin-top: -1100px;
+}
+.images10{
+    position: center;
+    margin-left: 250px;
+    margin-top: 250px;
+}
+.images11{
+    position: center;
+    margin-left: 630px;
+    margin-top: -380px;
+}
+.images12{
+    position: center;
+    margin-left: 1115px;
+    margin-top: -390px;
+}
+.Persona-content h6{
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-left: 385px;
+    margin-top: -100px;
+}
+.Pygame-content h7{
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-left: 850px;
+}
+.Visulisation-content{
+    font-weight: normal;
+    color: white;
+    font-size: 22px;
+    margin-left: 65%;
+    margin-top: -46px;
+}
+.Persona-content h6:hover { 
+    color: white;
+    font-weight: bold;
+}
+.Pygame-content h7:hover{
+    color: white;
+    font-weight: bold;
+}
+.Visulisation-content:hover{
+    color: white;
+    font-weight: bold;
+}
+.Contact-content{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 30px; 
+    margin-left: 850px;
+    margin-top: 350px;
+}
+.images13{
+    position: absolute;
+    right: 0;
+    margin-top: 200px;
+}
+.images14{
+    position: absolute;
+    right: 0;
+    margin-top: 350px;
+}
+.images15{
+    position: center;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.send-content{
+    font-weight: normal;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-left: 1025px;
+    margin-top: -80px;
+}
+.images16{
+    margin-left: 500px;
+    margin-top: -230px;
+}
+.images16:hover{
+    filter: blur(1px);
+}
+.images17{
+    margin-left: 500px;
+    margin-top: 25px;
+}
+.images17:hover{
+    filter: blur(1px);
+}
+
+.images18{
+    margin-left: 500px;
+    margin-top: 450px;
+}
+.images19{
+    margin-left: 700px;
+    margin-top: -45px;
+}
+.images20{
+    margin-left: 900px;
+    margin-top: -50px;
+}
+.images21{
+    margin-left: 1100px;
+    margin-top: -55px;
+}
+.images22{
+    width: fit-content;
+    margin-left: 700px;
+    margin-top: 100px;
+}
+.images22:hover{
+    filter:blur(1px); 
+}
+.kupar23{
+    width: fit-content;
+    margin-left: 800px;
+    margin-top: -65px; 
+}
+.kupar23:hover{
+    filter: blur(1px);
+}
+
+.images24{
+    width: fit-content;
+    margin-left: 900px;
+    margin-top: -70px;
+}
+.images24:hover{
+    filter: blur(1px);
+}
+
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto;
+  }
+
+  /* Default styles for larger screens */
+
+@media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 16px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    flex: 1;
+  }
+
+  /* Default styles for mobile devices */
+
+@media only screen and (min-width: 768px) {
+    /* Additional styles for larger screens */
+  }

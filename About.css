@@ -1,0 +1,67 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'poppins', sans-serif; 
+} 
+.images1{
+    position: center;
+    margin-top: 150px;
+    margin-left: 500px;
+}
+.images2{
+    margin-top: -900px;
+    margin-left: 40px;
+}
+.images3{
+    margin-top: 500px;
+    margin-left: 10px;
+}
+.images4{
+    opacity: 0.7;
+    margin-top: -750px;
+    margin-left: -500px;
+}
+.aboutme-content{
+    font-weight: medium;
+    color: white;
+    font-size: 20px; 
+    margin-left: 864px;
+    margin-top: -1355px;
+}
+.aboutmyself-content p{
+    font-weight: normal;
+    color: white;
+    font-size: 20px;
+    margin-left: 575px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+.skill-content{
+    font-weight: medium;
+    color: white;
+    font-size: 20px; 
+    margin-left: 920px;
+    margin-top: 60px; 
+}
+.Skills-content{
+    font-weight: normal;
+    color: white;
+    font-size: 20px; 
+    margin-left: 850px;
+    line-height: 30px;
+}
+.hobbie-content{
+    font-weight: medium;
+    color: white;
+    font-size: 25px; 
+    margin-left: 900px;
+    margin-top: 80px;
+}
+.Hobbies-content{
+    font-weight: normal;
+    color: white;
+    font-size: 20px; 
+    margin-left: 850px;
+    line-height: 30px;
+}

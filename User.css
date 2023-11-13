@@ -1,0 +1,114 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'poppins', sans-serif; 
+}
+.images1{
+    position: center;
+    margin-top: 100px;
+    margin-left: 550px;
+}
+.user-content{
+    font-weight: bold;
+    color: white;
+    font-size: 20px; 
+    margin-left: 850px;
+    margin-top: -440px;
+}
+.images2{
+    margin-top: -90px;
+    margin-left:40px;
+}
+.project-content{
+    font-weight: medium;
+    color: white;
+    font-size: 20px; 
+    margin-left: 600px; 
+    margin-top: 480px;
+}
+.images3{
+position: absolute;
+right: 0;
+margin-top: -60px;
+}
+.images4{
+    position: absolute;
+    right: 20px;
+    margin-top: 250px;
+}
+.aboutproject-content{
+    font-weight: normal;
+    color: white;
+    font-size: 22px;
+    margin-left: 500px;
+    margin-top: 30px;
+    line-height: 35px;
+}
+.key-content{
+    font-weight: medium;
+    color: white;
+    font-size: 23px; 
+    margin-left: 600px; 
+    margin-top: 65px;
+}
+.keytakeaway-content{
+    font-weight: normal;
+    color: white;
+    font-size: 22px;
+    margin-left: 500px;
+    margin-top: 30px; 
+    line-height: 35px;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto;
+  }
+
+  /* Default styles for larger screens */
+
+@media only screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  body {
+    font-size: 16px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    flex: 1;
+  }
+
+  /* Default styles for mobile devices */
+
+@media only screen and (min-width: 768px) {
+    /* Additional styles for larger screens */
+  }
+  
